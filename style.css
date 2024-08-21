@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row; /* Aligns left and right side by side */
+    background-color: white;
+    height: 80vh;
+    width: 50vw;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left, .right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left {
+    background-color: white;
+  }
+  
+  .right {
+    background-color:rgb(58, 142, 58);
+    text-align: center;
+  }
+  
+  .container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+  }
+    
+  input[type="username"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: #e1d9d9;
+    border: none;
+    outline: none;
+  }
+  
+  .btn {
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(58, 142, 58);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .sign-btn{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px ;
+    
+    border: none;
+    background-color:hsl(120, 55%, 27%);
+    border-radius: 50px;
+    color: rgb(211, 208, 208);
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .first {
+    margin-top:0px;
+    text-align: center;
+  }
+  .second {
+    margin: 20px;
+    color:rgba(255, 255, 255, 0.873);
+    text-align: center;
+  }
+  h3{
+    
+    color: white;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 120px;
+    gap: 20px;
+    font-size:24px ;
+  }
+
+
+  .fa-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 20px;;
+    
+  }
+  .facebook-icon i {
+    color: #87CEEB; 
+  }
+  .google-icon i{
+    color: rgb(251, 30, 30);
+  }
+  .linkedin-icon i {
+    color: #0077B5; 
+  }
+  
+  
+  
+  .fa-brands:hover {
+    color: #666;
+  }
+  
